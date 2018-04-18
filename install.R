@@ -1,0 +1,11 @@
+install.packages(
+ c('devtools','ggplot2','dplyr','tidyr'),
+ repos='http://repo.bppt.go.id/cran'
+)
+library(devtools)
+install_github(
+ c('stockapp','napel','markdownapp','appdemo',
+   'gitstats','rollcorr','VisiStat','tvscore',
+   'leafletapp'),
+ username='rwebapps'
+)

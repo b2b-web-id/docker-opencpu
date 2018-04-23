@@ -1,7 +1,8 @@
 install.packages(
  c('devtools','ggplot2','dplyr','tidyr',
-   'quantmod','leaflet','DT'),
- repos='http://repo.bppt.go.id/cran'
+   'quantmod','leaflet','DT','forecast',
+   'tseries'),
+ repos='http://cran.rstudio.org/'
 )
 library(devtools)
 install_github(

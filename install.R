@@ -2,7 +2,7 @@ install.packages(
  c('devtools','ggplot2','dplyr','tidyr',
    'quantmod','leaflet','DT','forecast',
    'tseries'),
- repos='http://cran.rstudio.org/'
+ repos='http://cran.r-project.org/'
 )
 library(devtools)
 install_github(
@@ -11,4 +11,8 @@ install_github(
    'rwebapps/gitstats','rwebapps/rollcorr',
    'rwebapps/VisiStat','rwebapps/tvscore',
    'rwebapps/leafletapp')
+)
+update.packages(
+ ask=FALSE,
+ repos='http://cran.r-project.org/'
 )

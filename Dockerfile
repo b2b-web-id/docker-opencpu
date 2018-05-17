@@ -1,5 +1,6 @@
 FROM opencpu/debian-9:v2.0.7
 RUN apt update; \
+  apt upgrade -y; \
   apt install -y \
    libnlopt-dev libnlopt-guile0 libnlopt0
 COPY install.R /root

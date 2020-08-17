@@ -2,7 +2,7 @@ install.packages(
  c('devtools','ggplot2','plyr','dplyr','tidyr','sqldf',
    'quantmod','leaflet','DT','forecast','tseries',
    'iterators','bit','plogr','DBI','blob','doMC','rio',
-   'bit64','proto','mvtnorm','expm','numDeriv','MBESS;,
+   'bit64','proto','mvtnorm','expm','numDeriv','MBESS',
    'pbivnorm','mnormt','lavaan','jpeg','checkmate',
    'RcppEigen','statmod','nloptr','minqa','htmlTable',
    'data.table','latticeExtra','Formula','Hmisc','coda',

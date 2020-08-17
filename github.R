@@ -1,3 +1,4 @@
+library(devtools)
 install_github(
  c('rwebapps/stockapp','rwebapps/nabel',
    'rwebapps/markdownapp','rwebapps/appdemo',

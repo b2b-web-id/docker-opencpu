@@ -1,0 +1,10 @@
+install.packages(
+ c('devtools','ggplot2','dplyr','tidyr',
+   'quantmod','leaflet','DT','forecast',
+   'tseries'),
+ repos='http://cran.r-project.org/'
+)
+update.packages(
+ ask=FALSE,
+ repos='http://cran.r-project.org/'
+)

@@ -1,4 +1,4 @@
-FROM opencpu/debian-9:v2.0.7
+FROM opencpu/debian-10:latest
 RUN apt update; \
   apt upgrade -y; \
   apt install -y \

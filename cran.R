@@ -14,7 +14,7 @@ install.packages(
    'broom','Deriv','foreach','chron','RSQLite','lmerTest',
    'gsubfn','polycor','msm','semTools','sem','car','lsr',
    'OpenMx','gsl','multcomp','modeltools','libcoin','ltm',
-   'insight','estimability','survey'.'doBy','DTK','effects'
+   'insight','estimability','survey','doBy','DTK','effects'
 ),
  repos='http://cran.r-project.org/'
 )

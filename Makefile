@@ -1,5 +1,5 @@
 NAME = b2bwebid/opencpu
-VERSION = 2020.2
+VERSION = 2021.1
 
 .PHONY: all build tag_latest release
 

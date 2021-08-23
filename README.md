@@ -2,8 +2,6 @@
 
 Dockerized OpenCPU with Samples
 
-Built based on `opencpu/debian-10:latest`.
-
 ## How to get
 
 ```bash

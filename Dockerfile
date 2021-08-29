@@ -16,7 +16,7 @@ RUN cd ~ && \
   wget --quiet https://github.com/opencpu/opencpu-server/archive/v${BRANCH}.tar.gz && \
   tar xzf v${BRANCH}.tar.gz && \
   cd opencpu-server-${BRANCH} && \
-  sed -i 's/bionic/buster/g' debian/changelog && \
+  sed -i 's/bionic/bullseye/g' debian/changelog && \
   dpkg-buildpackage -us -uc
 
 USER root

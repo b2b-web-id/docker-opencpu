@@ -1,6 +1,6 @@
 FROM b2bwebid/r-base:bullseye
 
-ENV BRANCH 2.2.0
+ENV BRANCH 2.2.5
 ENV RSTUDIO 1.4.1717
 
 RUN apt install -y locales apt-utils wget libprotobuf-dev protobuf-compiler apache2 apache2-dev ssl-cert \

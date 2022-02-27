@@ -1,7 +1,7 @@
 FROM b2bwebid/r-base:buster
 
-ENV BRANCH 2.2.5-3
-ENV RSTUDIO 1.4.1717
+ENV BRANCH 2.2.7
+ENV RSTUDIO 2022.02.0-443
 
 RUN apt install -y locales apt-utils wget libprotobuf-dev protobuf-compiler apache2 apache2-dev ssl-cert libapparmor-dev libcurl4-openssl-dev libssl-dev libxml2-dev libssh2-1-dev libcairo2-dev xvfb xfonts-base debhelper && \
     apt clean && \

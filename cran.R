@@ -1,3 +1,4 @@
+REPO = "https://cloud.r-project.org/"
 install.packages(
  c('devtools','ggplot2','plyr','dplyr','tidyr','sqldf',
    'quantmod','leaflet','DT','forecast','tseries',
@@ -16,9 +17,9 @@ install.packages(
    'OpenMx','gsl','multcomp','modeltools','libcoin','ltm',
    'insight','estimability','survey','doBy','DTK','effects'
 ),
- repos='http://cran.r-project.org/'
+ repos=REPO
 )
 update.packages(
  ask=FALSE,
- repos='http://cran.r-project.org/'
+ repos=REPO
 )

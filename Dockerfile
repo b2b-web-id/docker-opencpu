@@ -1,7 +1,7 @@
-FROM b2bwebid/r-base:buster
+FROM b2bwebid/r-base:bookworm
 
-ENV BRANCH 2.2.7
-ENV RSTUDIO 2022.02.0-443
+ENV BRANCH 2.2.12
+ENV RSTUDIO 2024.12.0-467
 
 RUN apt install -y locales apt-utils wget libprotobuf-dev protobuf-compiler apache2 apache2-dev ssl-cert libapparmor-dev libcurl4-openssl-dev libssl-dev libxml2-dev libssh2-1-dev libcairo2-dev xvfb xfonts-base debhelper && \
     apt clean && \
@@ -24,7 +24,7 @@ RUN apt-get install -y libapache2-mod-r-base && \
   dpkg -i /home/builder/opencpu-server_*.deb
 
 RUN apt-get install -y gdebi-core git sudo && \
-  wget --quiet https://download2.rstudio.org/server/bionic/amd64/rstudio-server-${RSTUDIO}-amd64.deb && \
+  wget --quiet https://download2.rstudio.org/server/jammy/amd64/rstudio-server-${RSTUDIO}-amd64.deb && \
   gdebi --non-interactive rstudio-server-${RSTUDIO}-amd64.deb && \
   rm -f rstudio-server-${RSTUDIO}-amd64.deb && \
   echo "server-app-armor-enabled=0" >> /etc/rstudio/rserver.conf
